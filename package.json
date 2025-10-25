@@ -1,0 +1,51 @@
+{
+  "name": "database-ide",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "lint": "next lint",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@aws-sdk/credential-providers": "latest",
+    "@mongodb-js/zstd": "latest",
+    "@radix-ui/react-dialog": "^1.1.15",
+    "@radix-ui/react-dropdown-menu": "^2.1.16",
+    "@radix-ui/react-label": "^2.1.7",
+    "@radix-ui/react-popover": "^1.1.15",
+    "@radix-ui/react-select": "^2.2.6",
+    "@radix-ui/react-toast": "^1.2.15",
+    "@radix-ui/react-tooltip": "^1.2.8",
+    "@tailwindcss/postcss": "^4.1.16",
+    "@vercel/analytics": "latest",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "gcp-metadata": "latest",
+    "kerberos": "latest",
+    "lucide-react": "^0.454.0",
+    "mongodb": "latest",
+    "mongodb-client-encryption": "latest",
+    "mysql2": "latest",
+    "next": "16.0.0",
+    "pg": "latest",
+    "pg-native": "latest",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "redis": "latest",
+    "snappy": "latest",
+    "socks": "latest",
+    "tailwind-merge": "^2.5.5",
+    "tailwindcss-animate": "^1.0.7",
+    "tw-animate-css": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "@types/react": "19.2.2",
+    "@types/react-dom": "19.2.2",
+    "postcss": "^8.5",
+    "tailwindcss": "4.1.16",
+    "typescript": "^5"
+  }
+}
